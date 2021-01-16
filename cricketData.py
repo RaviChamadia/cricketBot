@@ -1,6 +1,6 @@
 import requests
 class cricketData:
-    __api_key="bAXiVLiwNZVAEcJaT1LHVB1HZbk1"
+    __api_key=""
     __url=""
     def __cricketData(self):
         res=requests.get(self.__url)
